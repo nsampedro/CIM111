@@ -1,3 +1,8 @@
 h1 {
-  background-color: red;
+  background-color: #926BE5;
+}
+
+p{
+padding: 10px;
+/* adds a space to the border of the webpage and the words */
 }
