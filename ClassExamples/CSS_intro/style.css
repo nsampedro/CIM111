@@ -1,18 +1,40 @@
-html{
-  background-color: black;
+html,body{
+  background-color:white;
+  color: black;
+}
+/* select the section with id="centered" */
+section#centered, #centered {
+  /* set the width of this section to be 600px */
+  width:1200px;
+  /* set the margin to be on 0 on the top and bottom, and auto on left and right */
+  margin: 0 auto;
+  /* this means the same as above */
+  /* margin: 0 auto 0 auto;
+  /* this means the same as the previous two ways of setting margin */
+  /* margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto; */
+
+  /* set the border to be 1px of solid pantone warm red */
+  border: 5px solid #f9423a;
 }
 
 h1 {
     font-size: 40px;
-    color: goldenrod;
     font-weight: 300;
+    display: inline-block;
+    float: right;
 }
 
 p{
   font-size: 150%;
-  color: yellow;
-  background-color: black;
   font-weight: 100;
+  width:400px;
+  /* make the paragraph stay on the left */
+  /* display: inline-block; */
+  /* float: right;
+  text-align: center; */
 
 }
 
