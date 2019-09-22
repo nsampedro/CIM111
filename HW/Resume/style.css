@@ -1,7 +1,9 @@
-
+body{
+  background-color: #e6faff
+}
 h1,h2,h3{
   font-family: 'Crimson Text', serif;
-  color: #556b2f
+  color: #ff704d
 }
 h2,h3{
   border-bottom: 1px solid black;
@@ -35,7 +37,20 @@ section#contact_info h3{
   font-size:
 }
 .school{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
+}
+.hobbies{
+border: solid;
+font-style: italic;
+}
+
+section#intro{
+ border: 1px dotted green;
+
+}
+
+section#home{
+color: #ff704d;
 
 }
