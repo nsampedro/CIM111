@@ -1,9 +1,11 @@
-h2 {
-  background-color: #926BE5;
+h1,h2,h3{
+  font-family: 'Crimson Text', serif;
+  color: #556b2f
 }
 
 p{
 padding: 10px;
+font-family: 'Crimson Text', serif;
 /* adds a space to the border of the webpage and the words */
 }
 
@@ -23,24 +25,9 @@ a:visited{
 a:hover {
 background-color: yellow;
 color: black;
-
-}
-
-/* love */
-a:link, a:visited{
-
-}
-
-/* hate */
-a:hover,a:active{
-
 }
 
 section#contact_info h3{
   color:blue;
   font-size:
-}
-
-body header h1{
-  color: green;
 }
