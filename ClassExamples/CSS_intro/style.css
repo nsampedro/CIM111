@@ -1,6 +1,9 @@
 html,body{
   background-color:white;
   color: black;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+
 }
 /* select the section with id="centered" */
 section#centered, #centered {
@@ -22,9 +25,10 @@ section#centered, #centered {
 
 h1 {
     font-size: 40px;
-    font-weight: 300;
-    display: inline-block;
-    float: right;
+    font-weight: 700;
+    font-family: 'Karla', sans-serif;
+    /* display: inline-block;
+    float: right; */
 }
 
 p{
