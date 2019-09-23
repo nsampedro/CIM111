@@ -14,7 +14,7 @@ font-family: 'Crimson Text', serif;
 /* adds a space to the border of the webpage and the words */
 }
 
-#email {
+section#email {
 text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ section#intro{
 
 }
 
-section#home{
-color: #ff704d;
-
+#name{
+  font-size: 35px;
+  text-align: center;
 }
