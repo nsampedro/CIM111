@@ -15,10 +15,11 @@ body {
 }
 
 main {
-    background-color: orange;
+    background-color: yellow;
     width: 90vw;
-    height: 50vh;
-    padding-top: 20px;
+    /* height: 50vh; */
+    margin: 0 auto;
+
 }
 
 article.my_box, .my_box {
@@ -37,5 +38,5 @@ h1 {
     text-align: inherit;
 }
 p {
-    margin-top: 20px;
+    padding: 20px;
 }
