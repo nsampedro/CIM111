@@ -1,0 +1,35 @@
+html {
+    font-size: 21px;
+    line-height: 1.7;
+    font-family:sans-serif;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-areas:
+        "yellow . red"
+        "yellow . red"
+        "blue blue blue";
+    grid-gap: 1rem;
+}
+
+.box {
+    border: 1px solid #000000;
+    font-family: monospace;
+    min-height: 300px;
+}
+
+.yellow{
+    grid-area: yellow;
+    background-color: yellow;
+}
+
+.red{
+    grid-area: red;
+    background-color: red;
+}
+
+.blue{
+    grid-area: blue;
+    background-color: cyan;
+}
