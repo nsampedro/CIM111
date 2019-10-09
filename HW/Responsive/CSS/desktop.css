@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px){
+@media only screen and (min-width: 800px){
 
 body {
     margin: 1% 2%;
@@ -10,4 +10,80 @@ body {
 
 body {
     background-color: goldenrod;
+}
+
+
+.first{
+    display: grid;
+    grid-template-areas:
+        "first-picture first-text";
+    grid-gap: 30px;
+}
+
+.firstPicture{
+    grid-area: first-picture;
+}
+
+.firstText{
+    grid-area: first-text;
+}
+
+.sad{
+    display: grid;
+    grid-template-areas:
+        "sad-picture sad-text";
+    grid-gap: 30px;
+}
+
+.heartBroken{
+    grid-area: sad-picture;
+}
+
+.sadText{
+    grid-area: sad-text;
+}
+
+.greatest{
+    display: grid;
+    grid-template-areas:
+        "beautiful-picture beautiful-text";
+    grid-gap: 30px;
+}
+
+.classicPicture{
+    grid-area: beautiful-picture;
+}
+
+.beautifulText{
+    grid-area: beautiful-text;
+}
+
+.experimental{
+    display: grid;
+    grid-template-areas:
+        "plain-cover electronic-text";
+    grid-gap: 30px;
+}
+
+.plainCover{
+    grid-area: plain-cover;
+}
+
+.electronicText{
+    grid-area: electronic-text;
+}
+
+.next{
+    display: grid;
+    grid-template-areas:
+        "jesus-cover jesus-text";
+    grid-gap: 30px;
+}
+
+.jesusPhoto{
+    grid-area: jesus-cover;
+}
+
+.jesusText{
+    grid-area: jesus-text;
 }
