@@ -12,6 +12,20 @@ body {
     background-color: goldenrod;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #f9423a;
+}
+
+a:hover {
+background-color: yellow;
+color: black;
+}
+
 
 .first{
     display: grid;
