@@ -2,14 +2,9 @@
 
 body {
     margin: 1% 2%;
-}
-
-}
-
-
-
-body {
     background-color: goldenrod;
+}
+
 }
 
 a{
@@ -24,6 +19,14 @@ a:visited{
 a:hover {
 background-color: yellow;
 color: black;
+}
+
+.title{
+    text-align: center;
+}
+
+.bio{
+    text-align:center;
 }
 
 
