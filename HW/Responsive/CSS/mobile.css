@@ -1,97 +1,98 @@
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 600px){
     body{
         background-color: #D0D3D4;
         margin: 1% 2%;
         font-size: 20px;
         }
-}
-
-a{
-  text-decoration: none;
-}
-
-a:visited{
-  text-decoration: none;
-  color: #f9423a;
-}
-
-a:hover {
-background-color: yellow;
-color: black;
-}
 
 
-.first{
-    display: grid;
-    grid-template-areas:
-        "first-picture first-text";
-    grid-gap: 30px;
-}
+    a{
+      text-decoration: none;
+    }
 
-.firstPicture{
-    grid-area: first-picture;
-}
+    a:visited{
+      text-decoration: none;
+      color: #f9423a;
+    }
 
-.firstText{
-    grid-area: first-text;
-}
+    a:hover {
+    background-color: yellow;
+    color: black;
+    }
 
-.sad{
-    display: grid;
-    grid-template-areas:
-        "sad-picture sad-text";
-    grid-gap: 30px;
-}
 
-.heartBroken{
-    grid-area: sad-picture;
-}
+    .first{
+        display: grid;
+        grid-template-areas:
+            "first-picture first-text";
+        grid-gap: 30px;
+    }
 
-.sadText{
-    grid-area: sad-text;
-}
+    .firstPicture{
+        grid-area: first-picture;
+    }
 
-.greatest{
-    display: grid;
-    grid-template-areas:
-        "beautiful-picture beautiful-text";
-    grid-gap: 30px;
-}
+    .firstText{
+        grid-area: first-text;
+    }
 
-.classicPicture{
-    grid-area: beautiful-picture;
-}
+    .sad{
+        display: grid;
+        grid-template-areas:
+            "sad-picture sad-text";
+        grid-gap: 30px;
+    }
 
-.beautifulText{
-    grid-area: beautiful-text;
-}
+    .heartBroken{
+        grid-area: sad-picture;
+    }
 
-.experimental{
-    display: grid;
-    grid-template-areas:
-        "plain-cover electronic-text";
-    grid-gap: 30px;
-}
+    .sadText{
+        grid-area: sad-text;
+    }
 
-.plainCover{
-    grid-area: plain-cover;
-}
+    .greatest{
+        display: grid;
+        grid-template-areas:
+            "beautiful-picture beautiful-text";
+        grid-gap: 30px;
+    }
 
-.electronicText{
-    grid-area: electronic-text;
-}
+    .classicPicture{
+        grid-area: beautiful-picture;
+    }
 
-.next{
-    display: grid;
-    grid-template-areas:
-        "jesus-cover jesus-text";
-    grid-gap: 30px;
-}
+    .beautifulText{
+        grid-area: beautiful-text;
+    }
 
-.jesusPhoto{
-    grid-area: jesus-cover;
-}
+    .experimental{
+        display: grid;
+        grid-template-areas:
+            "plain-cover electronic-text";
+        grid-gap: 30px;
+    }
 
-.jesusText{
-    grid-area: jesus-text;
+    .plainCover{
+        grid-area: plain-cover;
+    }
+
+    .electronicText{
+        grid-area: electronic-text;
+    }
+
+    .next{
+        display: grid;
+        grid-template-areas:
+            "jesus-cover jesus-text";
+        grid-gap: 30px;
+    }
+
+    .jesusPhoto{
+        grid-area: jesus-cover;
+    }
+
+    .jesusText{
+        grid-area: jesus-text;
+    }
 }
