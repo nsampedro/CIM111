@@ -40,7 +40,8 @@
     .sad{
         display: grid;
         grid-template-areas:
-            "sad-picture sad-text";
+            "sad-picture"
+            "sad-text";
         grid-gap: 30px;
     }
 
@@ -55,7 +56,8 @@
     .greatest{
         display: grid;
         grid-template-areas:
-            "beautiful-picture beautiful-text";
+            "beautiful-picture"
+            "beautiful-text";
         grid-gap: 30px;
     }
 
@@ -70,7 +72,8 @@
     .experimental{
         display: grid;
         grid-template-areas:
-            "plain-cover electronic-text";
+            "plain-cover"
+            "electronic-text";
         grid-gap: 30px;
     }
 
@@ -85,7 +88,8 @@
     .next{
         display: grid;
         grid-template-areas:
-            "jesus-cover jesus-text";
+            "jesus-cover"
+            "jesus-text";
         grid-gap: 30px;
     }
 
