@@ -24,7 +24,8 @@
     .first{
         display: grid;
         grid-template-areas:
-            "first-picture first-text";
+            "first-picture"
+            "first-text";
         grid-gap: 30px;
     }
 
