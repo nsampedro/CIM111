@@ -1,10 +1,6 @@
-@media only screen and (min-width: 800px){
-
 body {
     margin: 1% 2%;
     background-color: goldenrod;
-}
-
 }
 
 a{
@@ -13,7 +9,7 @@ a{
 
 a:visited{
   text-decoration: none;
-  color: #f9423a;
+  color: white;
 }
 
 a:hover {
