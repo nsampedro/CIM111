@@ -1,60 +1,62 @@
-body{
-  background-color: #e6faff
+body {
+  background-color: #e6faff;
 }
-h1,h2,h3{
-  font-family: 'Crimson Text', serif;
-  color: #ff704d
+h1,
+h2,
+h3 {
+  font-family: "Crimson Text", serif;
+  color: #ff704d;
 }
-h2,h3{
+h2,
+h3 {
   border-bottom: 1px solid black;
 }
-p{
-padding: 10px;
-font-family: 'Crimson Text', serif;
-/* adds a space to the border of the webpage and the words */
+p {
+  padding: 10px;
+  font-family: "Crimson Text", serif;
+  /* adds a space to the border of the webpage and the words */
 }
 
 section#email {
-text-decoration: none;
-}
-
-a{
   text-decoration: none;
 }
 
-a:visited{
+a {
+  text-decoration: none;
+}
+
+a:visited {
   text-decoration: none;
   color: #f9423a;
 }
 
 a:hover {
-background-color: yellow;
-color: black;
+  background-color: yellow;
+  color: black;
 }
 
-section#contact_info h3{
-  color:blue;
-  font-size:20px;
+section#contact_info h3 {
+  color: blue;
+  font-size: 20px;
 }
-.school{
+.school {
   font-size: 18px;
   font-weight: bold;
 }
-.hobbies{
-border: solid;
-font-style: italic;
+.hobbies {
+  border: solid;
+  font-style: italic;
 }
 
-section#intro{
- border: 1px dotted green;
-
+section#intro {
+  border: 1px dotted green;
 }
 
-#name{
+#name {
   font-size: 35px;
   text-align: center;
 }
 
-#work{
-text-indent: 50px;
+#work {
+  text-indent: 50px;
 }
