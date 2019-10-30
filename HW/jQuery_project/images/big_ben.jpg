@@ -1,0 +1,1140 @@
+<!--[if IE ]><![endif]-->
+<!DOCTYPE html>
+<!--[if lt IE 7]>     <html class="no-js ie lt-ie9 lt-ie8 lt-ie7"  lang="en"> <![endif]-->
+<!--[if IE 7]>        <html class="no-js ie lt-ie9 lt-ie8"  lang="en"> <![endif]-->
+<!--[if IE 8]>        <html class="no-js ie lt-ie9"  lang="en"> <![endif]-->
+<!--[if IE 9]>        <html class="no-js ie ie9"  lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js"  lang="en"><!--<![endif]-->
+<!--
+	generated 301 seconds ago
+	generated in 0.255 seconds
+	served from batcache in 0.003 seconds
+	expires in 59 seconds
+-->
+<head>
+	<title>England London Internship | Study Abroad</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+	<meta http-equiv="ClearType" content="true" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+
+	
+		<meta name="copyright" content="&copy; 2019 Boston University" />
+	
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://www.bu.edu/abroad/xmlrpc.php" />
+	<link rel="apple-touch-icon" href="https://www.bu.edu/abroad/wp-content/themes/responsive-framework/icons/apple-touch-icon-precomposed.png"/>
+
+		<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" id="responsi-css"  href="https://www.bu.edu/abroad/wp-content/themes/r-abroad/style.min.css?ver=1.2.5" type="text/css" media="all" />
+	<!--<![endif]-->
+	<!--[if (lt IE 9) & (!IEMobile 7)]>
+	<link rel="stylesheet" id="responsi-ie-css"   href="https://www.bu.edu/abroad/wp-content/themes/r-abroad/ie.min.css?ver=1.2.5" type="text/css" media="all" />
+	<![endif]-->
+
+	<link rel='dns-prefetch' href='//cloud.typography.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.bu.edu\/abroad\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.10"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+        <style type="text/css">
+            #wpadminbar #wp-admin-bar-my-networks > .ab-item:first-child:before {
+                content: "\f325";
+                top: 3px;
+            }
+        </style>
+        <link rel='stylesheet' id='bu-slideshow-css'  href='https://www.bu.edu/abroad/wp-content/plugins/bu-slideshow/interface/css/bu-slideshow.css?ver=2.3.12' type='text/css' media='all' />
+<link rel='stylesheet' id='bu-branding-fonts-css'  href='//cloud.typography.com/6127692/660644/css/fonts.css?ver=0.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.bu.edu/abroad/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.bu.edu/abroad/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.bu.edu/abroad/wp-content/mu-plugins/bu-cms/interface/js/outbound_link_tracking.js?ver=4.9.10'></script>
+<script type='text/javascript' src='https://www.bu.edu/abroad/wp-content/themes/responsive-framework/js/vendor/modernizer.min.js?ver=2.8.3'></script>
+<link rel='https://api.w.org/' href='https://www.bu.edu/abroad/wp-json/' />
+<link rel='prev' title='Ghana Accra Global Health Program (Summer)' href='https://www.bu.edu/abroad/programs/ghana-global-health-program-summer/' />
+<link rel='next' title='Tanzania Zanzibar Swahili Language &#038; Culture in East Africa (Summer)' href='https://www.bu.edu/abroad/programs/zanzibar-swahili-language-and-culture-in-east-africa/' />
+<link rel="canonical" href="https://www.bu.edu/abroad/programs/london-internship-program/" />
+<link rel='shortlink' href='https://www.bu.edu/abroad/?p=57457' />
+<link rel="alternate" type="application/json+oembed" href="https://www.bu.edu/abroad/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bu.edu%2Fabroad%2Fprograms%2Flondon-internship-program%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.bu.edu/abroad/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bu.edu%2Fabroad%2Fprograms%2Flondon-internship-program%2F&#038;format=xml" />
+<meta name='last-updated' content='2019-10-16T16:22:46-04:00' />
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+
+		<script type="text/javascript">
+			//<![CDATA[
+		function bu_ga_track_pageview(e){var a,t=bu_ga_get_trackers();for(e||(e=void 0),_gaq.push(["_trackPageview",e]),a=0;a<t.length;a++)_gaq.push([t[a]+"._trackPageview",e])}function bu_ga_track_event(e){("undefined"==typeof e.value||null===e.value||isNaN(e.value))&&(e.value=0),"undefined"!=typeof e.delay&&null!==e.delay||(e.delay=0),"undefined"!=typeof e.noninteract&&null!==e.noninteract||(e.noninteract=!0),e.value=parseFloat(e.value);var a,t=bu_ga_get_trackers();for(_gaq.push(["_trackEvent",e.category,e.action,e.label,e.value,e.noninteract]),a=0;a<t.length;a++)_gaq.push([t[a]+"._trackEvent",e.category,e.action,e.label,e.value,e.noninteract]);e.delay&&setTimeout(function(){return!0},100)}function bu_ga_track_social(e){"undefined"!=typeof e.target&&"null"!=typeof e.target||(e.target=void 0),"undefined"!=typeof e.path&&"null"!=typeof e.path||(e.path=void 0);var a,t=bu_ga_get_trackers();for(_gaq.push(["_trackSocial",e.network,e.action,e.target,e.path]),a=0;a<t.length;a++)_gaq.push([t[a]+"._trackSocial",e.network,e.action,e.target,e.path])}function bu_ga_get_trackers(){return"undefined"==typeof buGa||"undefined"==typeof buGa.trackerNames?[]:buGa.trackerNames}function bu_ga_get_tracker(e){if("undefined"==typeof buGa||"undefined"==typeof buGa.trackerIds)return null;if("undefined"==typeof e||"null"==typeof e)return"";var a=buGa.trackerIds;for(var t in a)if(a[t]===e)return"a"===t?"":t;return null}var buGa = {"trackerNames":["b","c"],"trackerIds":{"a":"UA-124985-1","b":"UA-36737920-1","c":"UA-117362565-1"}};
+
+			var _gaq = _gaq || [];
+
+						_gaq.push(['_setAccount', 'UA-124985-1']);
+			_gaq.push(['_trackPageview']);
+						_gaq.push(['b._setAccount', 'UA-36737920-1']);
+			_gaq.push(['b._trackPageview']);
+						/* begin other trackers */
+			
+						_gaq.push(['c._setAccount', 'UA-117362565-1']);
+			_gaq.push(['c._trackPageview']);
+			
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+			//]]>
+		</script>
+
+		<link rel="stylesheet" id="custom-css-css"  type="text/css" href="https://www.bu.edu/abroad/files/custom.min.css?147" /></head>
+<body class="programs-template-default single single-programs postid-57457 has-bu-branding l-default" id="top">
+
+	<header class="masthead" role="banner">
+		<div class="masthead-container">
+			
+<div class="brand placeholder-temp">
+	<a href="http://www.bu.edu" class="brand-masterplate">Boston University</a>
+	<a class="brand-logotype has-title brand-container has-parent" href="https://www.bu.edu/abroad/" rel="home">
+
+	
+					<span class="brand-part-logotype">Boston University</span>
+		
+					<span class="brand-part-parent">Global Programs:</span>
+		
+		
+	
+	<span class="sitename brand-part-sitename">Study Abroad</span>
+
+</a>
+	</div>
+
+
+
+
+<nav class="primaryNav" role="navigation">
+	<a href="#primaryNav-menu" class="navToggle"><span>Menu</span></a>
+
+	<ul id="primaryNav-menu" class="primaryNav-menu no-dive"><li class="page_item page-item-57258">
+<a class="level_1" href="https://www.bu.edu/abroad/plan/" title="Navigate to: Plan">Plan</a>
+ </li>
+<li class="page_item page-item-4115">
+<a class="level_1" href="https://www.bu.edu/abroad/find/" title="Navigate to: Find">Find</a>
+ </li>
+<li class="page_item page-item-435">
+<a class="level_1" href="https://www.bu.edu/abroad/apply/" title="Navigate to: Apply">Apply</a>
+ </li>
+
+</ul>
+
+			<a href="#quicksearch" class="searchToggle"><span>Search</span></a>
+	
+	</nav>
+
+<form role="search" method="get" action="https://search.bu.edu/" id="quicksearch"><fieldset><legend class="screen-reader-text"><span>Search</span></legend><input type="hidden" name="site" value="https://www.bu.edu/abroad" ><input type="hidden" name="context" value="site"/>
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input name="q" type="text" aria-label="Search" class="search-field" id="q" placeholder="Search site&hellip;" title="Search for:" />
+				</label><input class="button search-submit" type="submit" name="do_search" value="Search" /></fieldset></form>		</div>
+	</header>
+
+	<div class="wrapper">
+		<div class="content">
+
+			<div class="bannerContainer bannerContainer-windowWidth bannerType-image"><div class="container"><div class="banner-title verticalCenter"><h1><span>England</span> London Internship </h1></div></div><img src="/abroad/files/2016/05/banner-london6.jpg" width="1400" height="520" class="banner" alt=""/><p class="caption">CC Image courtesy of Jose M. Vazquez on Flickr</p></div>
+
+			<div class="content-container">
+
+	
+		
+		
+<article role="main" id="post-57457" class="post-57457 programs type-programs status-publish hentry status-bu-student status-non-bu-student programtype-undergraduate-programs semester-fall semester-spring language-english internship-yes subject-advertising subject-aesthetic-exploration subject-art-architecture subject-artsarts-administration subject-business-management subject-communication subject-creativity-innovation subject-critical-thinking subject-digital-multimedia-expression subject-economics subject-englishcreative-writing subject-film-television subject-finance subject-global-citizenship-and-intercultural-literacy subject-health-human-services subject-historical-consciousness subject-history subject-hospitality-administration subject-individual-in-community subject-international-management subject-international-relations subject-journalism subject-management-policy subject-marketing subject-oral-and-or-signed-communication subject-philosophical-inquiry-and-lifes-meanings subject-political-science subject-pre-law subject-psychology subject-quantitative-reasoning-i subject-quantitative-reasoning-ii subject-social-inquiry-i subject-social-inquiry-ii subject-teamwork-collaboration subject-theater-arts location-london housing-program-residence">
+
+	
+	
+	<p>The London Internship Program, offered fall and spring semesters and featuring 12 different academic tracks, combines a professional internship with coursework that examines a particular academic area in the context of Great Britain’s history, culture, and society. Students take classes at the centrally located BU London Academic Center. After completing the program’s five-week core phase, students spend the final eight weeks in full-time internships with organizations in the greater London area while also enrolled in a related weekly seminar course.</p>
+
+	
+	<div class="center">
+		<a title="Apply Now" href="/abroad/apply" class="button">Apply now</a>
+	</div>
+
+				<div class="video-container">
+			<div class="video-title">
+				<div class="video-link-txt">
+					<div class="video-link-default">
+						<div class="video-link-default-txt"><h3>BU Abroad: Gathering Intelligence in <span>London</span></h3></div>
+					</div>
+					<div class="video-link-hover">
+						<div class="video-link-hover-txt"><h3>BU Abroad: Gathering Intelligence in <span>London</span></h3></div>
+					</div>
+			</div>
+				</div>
+			<div class="responsiveVideo">
+				<iframe src="http://www.bu.edu/buniverse/interface/embed/embed.html?v=MWqBW1N" width="550" height="310" frameborder="0"></iframe>
+<script type="text/javascript">
+jQuery( document ).ready(function() {
+  jQuery('.sidebar').append('<div class="widget contact"><a href="mailto:megclee@bu.edu"><img src="/abroad/files/2016/06/Meghan_Lee.png"><h5>Have a Question?</h5><h6>Contact Program Manager</h6><strong>Meghan Lee</strong></a></div>');
+});
+</script>			</div>
+		</div>
+	
+	<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h4 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Requirements & Considerations</h4>
+<div class="bu_collapsible_section" style="display: none;">
+<ul>
+<li><span>All students must enroll according to, and remain in compliance with, the </span><a href="http://www.bu.edu/abroad/plan/academics/#course_load">Boston University Study Abroad Course Load Policy</a><span>.</span></li>
+<li>Students are accepted into one of the program’s 12 different tracks, which cover a wide variety of fields</li>
+<li>All students must complete the full 16-credit program, enrolling in three academic courses and one internship course</li>
+<li>Priority will be given to qualified upperclassmen</li>
+<li><a title="Admissions" href="http://www.bu.edu/abroad/apply/">Admissions requirements</a> for all programs</li>
+</ul>
+</div>
+</div>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h4 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Curriculum</h4>
+<div class="bu_collapsible_section" style="display: none;">
+<h5>Internship Areas &amp; Tracks</h5>
+<p>Students must select a study area (referred to as a “track”) for the program from the list below. The track determines both the Core Course and Internship Course students will take in London.</p>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h6 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">London Internship Areas &amp; Tracks</h6>
+<div class="bu_collapsible_section" style="display: none;">
+<h6><strong>Please note:</strong> These are examples of past internship placements only. While BU Study Abroad guarantees an internship to program participants, specific placements vary from semester to semester and may not always be available. Likewise, internship placements may be available in academic areas not listed.</h6>
+<p><strong>Advertising &amp; Marketing</strong></p>
+<ul>
+<li>Study European marketing techniques and advertising strategy and intern in advertising agencies or the marketing departments of London companies. Previous internships have included Brand Links, M2M, Park Village Productions, Elizabeth Arden, Allegra Foundation, and EMAP.</li>
+</ul>
+<p><strong>Arts &amp; Arts Administration</strong></p>
+<ul>
+<li>Study the current art market in London. Gain an overview and learn about the funding bodies that support the arts in the UK. Intern in one of London’s art galleries, museums, preservation projects, or local arts centres. Previous internships have included Pump House Gallery, the Royal Academy of Arts, Acava, Cadogan Contemporary, and Westminster City Archives.</li>
+</ul>
+<p><strong>Economics &amp; Finance</strong></p>
+<ul>
+<li>Study the current economic, political, and social issues affecting Britain and intern in accounting, corporate finance, financial recruitment, financial communication, financial marketing, financial publications, investment firms, or economic research. Previous internships have included Europe Economics, Capital Markets Daily, Grayling, Overseas Development Institute, LDFM, and Maurice J Bushells Accountants.</li>
+</ul>
+<p><strong>Film, Radio &amp; Television</strong></p>
+<ul>
+<li>Study communications and society in Great Britain and intern for a radio, TV, or film production company. The UK media market is small by American standards. Previous internships have included Catsnake, Sky Movies, C Music Entertainment, Pilot Productions, Feelgood Fiction, and The Producers.</li>
+</ul>
+<p><strong>Hospitality &amp; Tourism</strong></p>
+<ul>
+<li>Study British culture and learn how the tourism industry works in the UK. Students intern in the international hospitality industries of London. Previous internships have included the Ritz, Better Bankside, Marylebone Hotel Group, Bumpkin Group, Bloomsbury Hotel, and EMC3.</li>
+</ul>
+<p><strong>International Relations</strong></p>
+<ul>
+<li>Study British policy-making in an international context and the UK’s role as a prominent player in foreign affairs. Previous internships have included MENCAP, IHS/Janes, Overseas Development Institute, Nacue, and Westminster Briefing.</li>
+</ul>
+<p><strong>Journalism</strong></p>
+<ul>
+<li>Study Britain’s news media in the context of the political, cultural, and social life of the United Kingdom by interning at a media, magazine, publishing house, or online publication. Previous internships have included <em>Junior Magazine</em>, Columbus Travel Media, Big Cheese, Simon &amp; Schuster, Cultureshock Media, and Quintessentially Publishing.</li>
+</ul>
+<p><strong>Management</strong></p>
+<ul>
+<li>Study international management and intern in entrepreneurship/starts-ups, business operations, or personnel departments. Previous internships have included Accelerator, Omerta Group, Citco, BE Group, Thriev, and The Connaught Hotel.</li>
+</ul>
+<p><strong>Politics</strong></p>
+<ul>
+<li>Study the issues and institutions of British political culture by interning in a political setting, including Parliament and party organisations. Previous internships have included various Members of Parliament, the Conservative Party Headquarters, the Labour Party Headquarters, various political party local offices, Dods and Government Knowledge.</li>
+</ul>
+<p><strong>Pre-Law</strong></p>
+<ul>
+<li>Study the history and practice of the law in Great Britain and intern in a British law firm. Previous internships have included JD Spicer Zeb, Bark &amp; Co, Powell Spencer &amp; Partners Solicitors, McCue &amp; Partners, Julian Young &amp; Co and O’Keeffe Solicitors.</li>
+</ul>
+<p><strong>Psychology &amp; Health Sciences</strong></p>
+<ul>
+<li>Study psychology and social policy through healthcare and human services issues and intern in hospital administration, education programs, health centre administration, university research departments, community care centres or social activist organisations. Previous internships have included Chelsea &amp; Westminster Hospital Schools, Goldsmiths University, MIND, Standing Together, Coombe Wood Unit and UCL Partners.</li>
+</ul>
+<p><strong>Public Relations</strong></p>
+<ul>
+<li>Study public relations as it is practiced in the UK and the EU, and intern in PR agencies or the PR departments of London companies. Previous internship placements have included Crabtree &amp; Evelyn, LD Publicity, Bell Pottinger PR, Marks &amp; Spencers, BrandNation and APCO.</li>
+</ul>
+<p><strong>Theatre Studies</strong></p>
+<ul>
+<li><em>Spring Only</em></li>
+<li>Study the theatre industry in one of the most vibrant theatre scenes of the world. Students have the unique opportunity to combine coursework with hands-on experience in a full-time internship in the visual and performing arts. Previous internships have included PW Productions, the Ambassadors Theatre Group, AKA, Only Connect, Southwark Playhouse, and Tabard Theatre.</li>
+</ul>
+</div>
+</div>
+<h4>Week 1–Week 5 (Core Phase)</h4>
+<p>Students take the required core course for their track to prepare for their internships, and one elective course. Students also meet with the program's internship placement advisors to refine their area of work placement according to ability, professional goals, experience, and work habits. <em><strong>Note:</strong> Syllabi are for course approval and reference only. Students will receive up-to-date syllabi when their courses begin.</em></p>
+<h5>Required Course</h5>
+<p>Students are automatically enrolled in the designated Core Course assigned to their track.</p>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h6 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Required Course List</h6>
+<div class="bu_collapsible_section" style="display: none;">
+<p>Students must enroll in the required core course in their track:</p>
+<p><strong>Advertising &amp; Marketing</strong></p>
+<ul>
+<li><span class="course-code">COM CM 521</span> <strong>British and European Marketing Strategy </strong> <em>(4 credits)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Social Inquiry I</li>
+<li>Oral and/or Signed Communication</li>
+</ul>
+</li>
+<li>Introduction to the strategic marketing concepts, tools and frameworks that underlie consumer marketing strategies. Analysis and assessment of companies operating in British and European markets that face increased global competition, demanding consumers and fast-evolving technologies. Examples used are updated to reflect current events.</li>
+<li><a href="/abroad/files/2016/03/COM-CM-521_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Arts &amp; Arts Administration</strong></p>
+<ul>
+<li><span class="course-code">CAS AH 320</span> <strong>Modern and Contemporary British Art and Design </strong><em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Aesthetic Exploration</li>
+<li>Historical Consciousness</li>
+</ul>
+</li>
+<li>The course provides an overview of Modern and Contemporary British Art and Design through the critical historical and aesthetic evaluation of art works and the institutions that house them within London’s permanent collections and temporary exhibitions.</li>
+<li><a href="/abroad/files/2016/03/CAS-AH-320_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Economics &amp; Finance</strong></p>
+<ul>
+<li><span class="course-code">CAS EC 364</span> <strong>British Economic Performance: A Comparative Perspective</strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Social Inquiry II</li>
+<li>Global Citizenship and Intercultural Literacy</li>
+</ul>
+</li>
+<li><em>Prerequisite: CAS EC 101</em><em>, or the equivalent.</em></li>
+<li><em>Recommended: CAS EC 102</em><em>, or the equivalent.</em></li>
+<li>An economic analysis of UK government policy relating to economic performance. It explores in particular market-oriented economic reform since the 1980s designed to reverse long-term economic decline in the United Kingdom relative to the EU and USA. These reforms include privatisation, deregulation, labour market reform, trade, UK economic relations with the EU, and Brexit.</li>
+<li><a href="/abroad/files/2016/06/CAS-EC-364_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Film, Radio &amp; Television</strong></p>
+<ul>
+<li><span class="course-code">COM FT 316</span> <strong>British Film and TV since 1960 </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Aesthetic Exploration</li>
+<li>Historical Consciousness</li>
+</ul>
+</li>
+<li>Students will explore the evolution of British Film and Television from the 1960s to the present day through a case study approach organized by genres and/or styles, affording an analysis of changes to production, aesthetics and representation over time.</li>
+<li><a href="/abroad/files/2016/03/COM-FT-316_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Hospitality &amp; Tourism</strong></p>
+<ul>
+<li><span class="course-code">SHA HF 365</span> <strong>British Tourism "Knowing Britain Inside and Out" </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas: Historical Consciousness, Global Citizenship and Intercultural Literacy</li>
+<li>This course examines the British Tourism and Hospitality Industry in depth, comparing British culture with that of other nations and considering what Britain, especially London, offers tourists. It looks at how history and culture are marketed to meet visitors’ expectations.</li>
+<li><a href="/abroad/files/2016/03/SHA-HF-365_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>International Relations</strong></p>
+<ul>
+<li><span class="course-code">CAS IR 361/PO 225</span> <strong>Understanding British Foreign and Domestic Policy Processes </strong> <em>(4)</em>
+<ul>
+<li>Presenting main policy areas and policy-making in Britain in an international context. Particular attention paid to foreign and defense policies. Focus on policy outcomes and the policy-making process with some reference to the political system and associated legal and constitutional factors.</li>
+<li><a href="/abroad/files/2016/03/CAS-IR-361-PO-225_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Journalism</strong></p>
+<ul>
+<li><span class="course-code">COM JO 358</span> <strong>British Journalism, Culture, and Society </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Global Citizenship and Intercultural Literacy</li>
+<li>Creativity/Innovation</li>
+</ul>
+</li>
+<li>Covers the workings of the British State and the obsessions and quirks of British culture so students can understand UK newspapers, and helps students build upon their own feature writing output from conception to completion.</li>
+<li><a href="/abroad/files/2016/03/COM-JO-358_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Management</strong></p>
+<ul>
+<li><span class="course-code">Questrom IM 345</span> <strong>International Management Environment </strong> <em>(4)</em>
+<ul>
+<li><em>Prerequisites: CAS EC 101</em> <em>and CAS EC 102</em><em>, or the equivalent.</em></li>
+<li><em>Students enrolled in Questrom IM 345 are not permitted to take CAS IR 427.</em></li>
+<li>This course has been designed to appeal to students who wish to gain an international perspective on the environment faced by business organizations. In today’s business environment, with the pressures of an evolving global economy, managers must take into account the many ways in which differences are apparent when compared with the domestic scene. Managers must adapt their approaches to take account of the strong international competition, which is increasingly apparent and which is critical to successful business performance. They also need to be informed as to how firm strategies may be developed. It is a must for business students to learn the international dimensions of business activities in order to be successful in today’s business world. McLarty.</li>
+<li><a href="/abroad/files/2016/03/QST-IM-345_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Politics</strong></p>
+<ul>
+<li><span class="course-code">CAS PO 221 / CAS IR 359:</span><strong> British Political Institutions </strong> <em>(4)</em>
+<ul>
+<li><em>Formerly CAS PO 360 / CAS IR 359.</em></li>
+<li>This course will introduce students to the main political institutions and actors in Britain. It will focus upon the historical and cultural context of British politics and detailed consideration will be given to competing political ideas and ideologies, divergent conceptual methods drawn from the social sciences, and popular perceptions of British politics. The course aims to give you a fairly thorough knowledge of Britain, to prepare you for internships and to give you, hopefully, some enjoyment. Cousins.</li>
+<li><a href="/abroad/files/2016/03/CAS-PO-221-IR-359_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Pre-Law</strong></p>
+<ul>
+<li><span class="course-code">CAS PO 222</span> <strong>The English Legal System </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Historical</li>
+<li>Social Inquiry I</li>
+</ul>
+</li>
+<li><em>Formerly CAS PO 534.</em></li>
+<li>Explores the historical development and current iteration of the English common law and the English legal system. Traces evolution from 11th century origins to present day. Examines in depth contemporary aspects of the legal professions, judiciary and legislatures of England.</li>
+<li><a href="/abroad/files/2016/03/CAS-PO-222_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Psychology &amp; Health Sciences</strong></p>
+<ul>
+<li><span class="course-code">CAS PS 365</span> <strong>Psychology and Social Issues: British Perspectives</strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Social Inquiry II</li>
+<li>Individual in Community</li>
+<li>Teamwork/Collaboration</li>
+</ul>
+</li>
+<li>This course will consider the value of contemporary theories and research in social psychology for understanding and addressing a number of current issues facing Britain today: violence and social disorder, immigration and asylum seeking; attitudes to gender and sexual diversity.</li>
+<li><a href="/abroad/files/2016/03/CAS-PS-365_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Public Relations</strong></p>
+<ul>
+<li><span class="course-code">COM CM 413</span> <strong>Planning and Strategy in British Public Relations </strong><em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas: Social Inquiry I, Digital/Multimedia Expression, Creativity/Innovation</li>
+<li>This course explores the background, context, theories, practices and functions of PR in Britain, analysing the environment of British organisations and its impact on PR planning and strategy, including the corporate, governmental and non-profit sectors.</li>
+<li><a href="/abroad/files/2016/03/COM-CM-413_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Theatre Studies</strong></p>
+<ul>
+<li><span class="course-code">CFA TH 440</span> <strong>Experiencing London Theatre in the Postwar World </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Aesthetic Exploration</li>
+<li>Historical Consciousness</li>
+</ul>
+</li>
+<li>This course offers an aesthetic and historical understanding of contemporary London theatre, as well as the interpretation of controversies in postwar British theatre history, plus knowledge of evaluative tools — including journalistic skills — for the analysis of current shows.</li>
+<li><a href="/abroad/files/2016/03/CFA-TH-440_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<h5>Elective A Course</h5>
+<p>Students enroll in one of the following elective courses. These courses are open to all tracks. Some have a limited enrollment and will be filled on a first-come, first-served basis.</p>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h6 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Elective A Course List</h6>
+<div class="bu_collapsible_section" style="display: none;">
+<ul>
+<li><span class="course-code">CAS AH 319</span> <strong>Arts and Media in Britain </strong> <em>(4 credits)</em>
+<ul>
+<li><em>Fall only</em></li>
+<li>This course is designed as an introduction to the arts in Britain. The course should serve to widen specialists’ knowledge, and to provide non-specialists with an overview. The course should cover core elements on such subjects as funding, institutions, accessibility, and value of British Arts.</li>
+<li><a href="/abroad/files/2014/10/syllabus-london-internship-program-cas-ah-319.pdf" title="Syllabus, CAS AH 319" target="_blank" class="syllabus" rel="noopener">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS AH 388</span> <strong>British Painting from Holbein to the Twentieth Century </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Arts &amp; Arts Administration.</em></li>
+<li>This course provides an introduction to British painting, and it is intended for students who have a major or minor in art history. The structure of the course is broadly chronological, covering the sixteenth century to the end of the nineteenth. The course offers students the unique opportunity of studying the artworks in London galleries and museums. Enrollment is limited. Donnellan.</li>
+<li><a href="/abroad/files/2016/03/CAS-AH-388_S18_Syllabus-3.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS EC 322</span> <strong>Political Economy of the Middle East and North Africa </strong> <em>(4)</em>
+<ul>
+<li><em>Prerequisite: EC 101 or EC 102, or equivalent.</em></li>
+<li>Examines the economic structure, institutional evolution, and political configuration in the countries of the Middle East and North Africa. Issues addressed include legacies of the colonial era, the impact of oil, and the problem of industrialization in resource-based economies.</li>
+<li><a href="/abroad/files/2016/03/CAS-EC-322_S18_Syllabus-2.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS EC 330/CAS IR 336</span> <strong>European Business Environment: Institutions and Enterprise </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Social Inquiry II</li>
+<li>Global Citizenship and Intercultural Literacy</li>
+<li>Teamwork/Collaboration</li>
+</ul>
+</li>
+<li>Provides learning and skills at the interface between international business, international relations, and other disciplines, through studying the system of EU “Competences” that provides comprehensive rules of conduct for firms. Includes Briefings by officials from EU Institutions, designed to build/test research/teamwork skills.</li>
+<li><a href="/abroad/files/2016/06/CAS-EC-330-IR-336_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS EC 346</span> <strong>European Capital Markets</strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Quantitative Reasoning I</li>
+</ul>
+</li>
+<li>This course examines global and European financial markets. Students learn about the foreign exchange market, Eurocurrency, Eurobond and derivative markets. In addition, students study a range of financial instruments, such as bills and bonds, forwards, futures and options.</li>
+<li><a href="/abroad/files/2016/03/CAS-EC-346_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS EN 310</span> <strong>The Waste Land: British and Irish Writing since 1900</strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas: Aesthetic Exploration</li>
+<li><em>Recommended elective for all tracks.</em></li>
+<li>Crossing TS Eliot’s The Waste Land, both figuratively and literally, we make an intensive study of significant works of major poets and writers who both helped to create and were created by the Modern Age, and of those they influenced.</li>
+<li><a href="/abroad/files/2016/06/CAS-EN-310_S19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS EN 387</span> <strong>Writing in Today's Britain: Meet the Writer </strong> <em>(4)</em>
+<ul>
+<li>Examines very recent texts of many genres in English, by both new and experienced contemporary writers, in the context of both literary history and the marketplace. Issues include: Freedom of speech, roles of literary agent and editor, literary integrity. Condé.</li>
+<li><a href="/abroad/files/2016/03/CAS-EN-387_S18_Syllabus.pdf-1" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS HI 249/WS 310</span> <strong>London Women's Social History from Aphra Behn to the Blitz </strong> <em>(4)</em>
+<ul>
+<li>This course examines the lives of women in London over the past three centuries from a social history perspective. Students will study patches of history from the 1660s and up to and including the role of women during the Second World War. One of the aims is to introduce and broaden students' experience of working with primary source materials and London is a splendid resource for students who are interested in this aspect of studying and writing history.</li>
+<li><a href="/abroad/files/2016/03/CAS-WS-310-HI-249_S18_Syllabus-2.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS HI 252</span> <strong>Class, Politics and the Making of British Identity </strong><em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Historical Consciousness</li>
+<li>Global Citizenship and Intercultural Literacy</li>
+</ul>
+</li>
+<li>This course explores shifts in power over a 500-year period, and considers the cultural effects of these changes. The impact of empire is also assessed. An understanding of the ‘invented’ and contested nature of British identity is the outcome.</li>
+<li><a href="/abroad/files/2016/03/CAS-HI-252_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS MA 113</span> <strong>Elementary Statistics </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas: Quantitative Reasoning II</li>
+<li><em>Priority will be given to Sargent College students enrolled in the Psychology &amp; Health Sciences Track.</em></li>
+<li>Basic concepts of estimation and tests of hypotheses, ideas from probability; one-, two-, and multiple-sample problems. Applications in social sciences. Primarily for students in the social sciences who require a one-semester introduction to statistics; others should consider CAS MA 115 or MA 213. Please note that students cannot get credit for both CAS MA 113 and CAS MA 115. Carries MCS divisional credit in CAS.</li>
+<li><a href="/abroad/files/2016/03/CAS-MA-113_S18_Syllabus-2.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS PO 220/CAS IR 335</span> <strong>Britain and Europe—A New Beginning </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for all tracks.</em></li>
+<li>Examines the changing social, cultural, political, and economic structures of Britain at the end of the twentieth century. Introduction to current debates about the future of the United Kingdom in its relationship with Europe. Cousins.</li>
+<li><a href="/abroad/files/2016/03/CAS-PO-220-IR-335_S18_Syllabus-2.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CFA TH 508</span> <strong>Contemporary British Theatre </strong> <em>(4)</em>
+<ul>
+<li><em>Enrollment limited</em></li>
+<li>Provides students with access to contemporary British theatre and the critical tools to understand and enjoy theatre from the perspectives of the playbooks and the productions themselves. This course surveys and offers explanation of the major developments that have taken place in British theatre since 1956. Coursework focuses on students' theatre visits, which occur once every week and include both mainstream and fringe theatre productions. The plays are discussed prior to attendance, and students are expected to provide a critique of the works they have seen. Read.</li>
+<li><a href="/abroad/files/2016/03/CFA-TH-508_S18_Syllabus-2.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">COM CM 334</span> <strong>Advertising in the UK </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas: Aesthetic Exploration, Philosophical Inquiry and Life's Meanings</li>
+<li><em>Recommended elective for Advertising, Marketing &amp; Public Relations.</em></li>
+<li>Focuses on London’s stellar reputation for creative and production excellence in advertising; examines how the advertising is shaped by the anti-sell, irony-modulated consumer culture, and emphasizes the way that deifying research risks diluting creative.</li>
+<li><a href="/abroad/files/2016/03/COM-CM-334_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">COM CM 457</span> <strong>Seminar in Global Promotional Strategies </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Social Inquiry II</li>
+<li>Global Citizenship and Intercultural Literacy</li>
+<li>Critical Thinking</li>
+</ul>
+</li>
+<li>This course develops both conceptual knowledge and practical skills to identify the most appropriate and cost-effective global promotional strategies and develop and implement successfully such a strategy in an increasingly competitive and volatile global environment.</li>
+<li><a href="/abroad/files/2016/03/COM-CM-457_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">COM FT 318</span> <strong>British Television Studies </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Film &amp; Television.</em></li>
+<li>Examines the content and form of British television programs, contrasting it with American programming. Special emphasis is placed on the study of genres and conventions. Genres will focus on drama, news, comedy, consumer affairs, children’s television, sports, and others, and these are explored in the light of Britain’s cultural and political identity. Fanthome.</li>
+<li><a href="/abroad/files/2016/03/COM-FT-318_S18_Syllabus-2.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">Questrom FE 449</span> <strong>Corporate Finance Management </strong> <em>(4)</em>
+<ul>
+<li><em>Prerequisite: FE 323 Financial Management, or the equivalent</em></li>
+<li>Covers the financial manager's role in obtaining and allocating funds. Includes topics such as cash budgeting, working capital analysis, dividend policy, capital investment analysis, and debt policy as well as their associated risks. Valuation of companies, mergers and acquisitions, and bankruptcy are covered. The course requires using financial models and spreadsheets. Applications are made to current events and everyday business finance problems.</li>
+<li><a href="/abroad/files/2016/03/QST-FE-449_S17_Syllabus-2.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<h4>Week 6–Week 13 (Internship Phase)</h4>
+<p>Students participate in London's work life through assigned internships that complement their particular academic concentration and personal goals. Students intern full time, four days a week, while enrolled in a weekly elective course. <em><strong>Note:</strong> Syllabi are for course approval and reference only. Students will receive up-to-date syllabi when their courses begin.</em></p>
+<h5>Internship Course</h5>
+<p>Students are automatically enrolled in the appropriate Internship Course assigned to their track.</p>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h6 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Internship Course List</h6>
+<div class="bu_collapsible_section" style="display: none;">
+<p>The course number will depend on the area of specialization in which the student completes his or her internship.</p>
+<h5>Advertising &amp; Marketing</h5>
+<ul>
+<li><span class="course-code">COM CM 471</span> <strong>Internship in Advertising &amp; Marketing</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/COM-CM-471_LM_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Arts &amp; Arts Administration</h5>
+<ul>
+<li><span class="course-code">CAS AH 505</span> <strong>Internship in the Arts/Architecture/Art Administration</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/CAS-AH-505_LA_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Economics &amp; Finance</h5>
+<ul>
+<li><span class="course-code">CAS EC 497</span> <strong>Internship in Business/Economics</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/CAS-EC-497_LE_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Film, Radio &amp; Television</h5>
+<ul>
+<li><span class="course-code">COM FT 493/494</span> <strong>Internship in Film, Radio &amp; Television</strong>
+<ul>
+<li><em>each worth 2 credits</em></li>
+<li><a href="/abroad/files/2016/03/COM-FT-493-494_FT_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Hospitality &amp; Tourism</h5>
+<ul>
+<li><span class="course-code">SHA HF 390</span> <strong>Field Placement in Hospitality Administration</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/SHA-HF-390_LT_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>International Relations</h5>
+<ul>
+<li><span class="course-code">CAS PO 405/IR 455</span> <strong>Internship in International Organizations</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/CAS-PO-405-IR-455_LI_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Journalism</h5>
+<ul>
+<li><span class="course-code">COM JO 411</span> <strong>Internship in Journalism</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/COM-JO-411_LJ_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">COM JO 413</span> <strong>Internship in Broadcast Journalism</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/COM-JO-413_LJ_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Management</h5>
+<ul>
+<li><span class="course-code">CAS EC 497 </span><strong>Internship in Business/Economics</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/CAS-EC-497_LB_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Politics</h5>
+<ul>
+<li><span class="course-code">CAS PO 401/IR 451</span> <strong>Internship in Politics Abroad</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/CAS-PO-401-IR-451_LP_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Pre-Law</h5>
+<ul>
+<li><span class="course-code">CAS PO 403</span> <strong>Internship in Comparative Law</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/CAS-PO-403_LL_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Psychology &amp; Health Sciences</h5>
+<ul>
+<li><span class="course-code">CAS PS 495</span> <strong>Internship in Health &amp; Human Services</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/CAS-PS-495_LH_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">SAR HS 405</span> <strong>Health Science Practicum</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/SAR-HS-405_LH_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">SAR HS 410</span> <strong>Field Experience: Human Physiology</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/SAR-HS-410_LH_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Public Relations</h5>
+<ul>
+<li><span class="course-code">COM CM 471</span> <strong>Internship in Public Relations</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/COM-CM-471_LR_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<h5>Theater Studies</h5>
+<ul>
+<li><span class="course-code">CFA TH 543/544</span> <strong>Professional Theater Initiative Internship</strong>
+<ul>
+<li><a href="/abroad/files/2016/03/CFA-TH-543-544_LD_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Internship Components</strong></p>
+<ul>
+<li>The student's performance at the internship (evaluated by the supervisor)</li>
+<li>An internship seminar and related assignments (graded by BU London faculty)</li>
+</ul>
+<p>Please note: The final internship course grade is determined solely by the coursework submitted for the internship seminar.</p>
+</div>
+</div>
+<h5>Elective B Course</h5>
+<p>These courses are taught concurrently with the internship/work placement. Students are encouraged to enroll in the course that is specifically designed for their track/internship. Please note that some courses have a limited enrollment, and priority will be given to students registered in the track for which the course was designed.</p>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h6 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Elective B Course List</h6>
+<div class="bu_collapsible_section" style="display: none;">
+<ul>
+<li><span class="course-code">CAS AH 381</span> <strong>London Architecture &amp; Urbanism </strong> <em>(4 credits)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Aesthetic Exploration</li>
+<li>Historical Consciousness</li>
+</ul>
+</li>
+<li><em>Recommended elective for Arts &amp; Arts Administration Track</em></li>
+<li>This course introduces the history and development of London and its buildings. It is aimed at a wide audience, not architectural specialists. Different styles of architecture and their origins will be explored through a combination of lectures and walking tours.</li>
+<li><a href="/abroad/files/2016/03/CAS-AH-381_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS AH 411</span> <strong>Writing About Art and Society: Perception, Display, and Criticism </strong> <em>(4)</em>
+<ul>
+<li><em>Spring only</em></li>
+<li><em>Recommended elective for Arts &amp; Arts Administration Track</em></li>
+<li>Examines the relationship between art and society via theoretical and critical readings and visits to London’s museums, galleries, and public art exhibits, focusing on how best to address the non-specialist audience and whether art is “necessary” to the public. Cumming.</li>
+<li><a href="/abroad/files/2016/03/CAS-AH-411_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS EC 360</span> <strong>British Macroeconomic Policy </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for “Economics &amp; Finance and Management Tracks</em></li>
+<li>The course analyzes the structure of UK governance and the economic policy formation process. It provides an exposition of the UK's changing trading relationship between its Empire and the EU, and the economic relationship that the UK has with its former colonies today. Principal domestic issues addressed are macro-economic policy, viz. the paradigm shift from Keynesian demand management to monetarist and supply-side policies. The conceptual shift from "collectivism" to "individualism." Also considered are the industrial structure and labor economics, foreign direct investment, economic development policy, and environmental issues. Seyf.</li>
+<li><a href="/abroad/files/2016/03/CAS-EC-360_S18_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS EN 357</span> <strong>Modern British Drama: A Critic's Perspective </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Journalism Track</em></li>
+<li>Offers a broad critical study of the major developments in British drama over the past 50 years. Through the eyes of a leading theater reviewer, the work of specific playwrights is analyzed in detail, and students are expected to produce written and oral critical analyses of plays read and observed during the course. Sierz.</li>
+<li><a href="/abroad/files/2016/03/CAS-EN-357_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS EN 368</span> <strong>Seminar in Shakespeare Studies </strong> <em>(4)</em>
+<ul>
+<li>This course aims to provide the student with an appreciation of the nature of Shakespeare’s achievement through the study of four plays in class sessions and the option of reading one other play that the student may choose for his or her directed study. The sessions will naturally involve some discussion of the general background of Shakespeare and his works, with time being devoted to the various thematic, structural, and historical issues that arise from a study of his plays. For the greater part of the course, however, time in class will be devoted to a close critical reading of various sections of the plays in order to give the student the opportunity to gain an intimate understanding of the verbal and dramatic qualities of Shakespeare’s genius, and of the myriad ways in which meanings are expressed through the language, imagery, structure, and dramatic possibilities of the works themselves.</li>
+<li><a href="/abroad/files/2016/03/CAS-EN-368_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS EN 388</span> <strong>Contemporary British Literature </strong> <em>(4)</em>
+<ul>
+<li>Through the intensive study of several recent literary texts students will learn more about the British psyche, culture, and history that generated them. They will hopefully be confronted with some of the most important aspects of the human condition, both in a sense of that condition as peculiarly British and as a generality. Charalambides.</li>
+<li><a href="/abroad/files/2016/02/CAS-EN-388-Contemporary-British-Literature.pdf" title="Syllabus, CAS EN 388" target="_blank" class="syllabus" rel="noopener">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS HI 243/CAS IR 392</span> <strong>Britain and the European Question: The Confluence of History and Politics </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for International Relations and Politics Tracks</em></li>
+<li>This course provides an overview of Britain's relations with Europe between 1945 and 1992 in the context of ongoing debates concerning national sovereignty and national modernization, losing an empire and maintaining a world role, and the "special relationship" with the United States. Thornhill.</li>
+<li><a href="/abroad/files/2016/03/CAS-IR-392-HI-243_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS HI 250</span> <strong>British Youth Culture from 1950 to the Present </strong> <em>(4)</em>
+<ul>
+<li><em>Spring only</em></li>
+<li><em>Prerequisite: completion of one university-level History course, or one university-level Sociology course.</em></li>
+<li>Course looks at the impact of black and white cultures of America on Britain; also the influence of Europe, the Caribbean, Africa, Asia, and British folk traditions, in the context of social change in the second half of the 20th century. Weight.</li>
+<li><a title="Syllabus, CAS HI 250" href="/abroad/files/2016/02/CAS-HI-250-British-Youth-Culture-from-1950-to-the-Present.pdf" target="_blank" class="syllabus" rel="noopener">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS HI 251</span> <strong>Cultural Capital: The History of Popular Culture in London </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Critical Thinking</li>
+<li>Global Citizenship and Intercultural Literacy</li>
+<li>Historical Consciousness</li>
+</ul>
+</li>
+<li><em>Prerequisite: completion of one university-level History course.</em></li>
+<li>Traces the historical development of popular culture in London from the late seventeenth century to the present day. Concerned with texts (visual, aural, written) and sites. Organised chronologically and thematically, engages with theoretical perspectives. Engages with wider history of Britain.</li>
+<li><a href="/abroad/files/2016/03/CAS-HI-251_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS HI 253</span> <strong>London at War: From the Home Front to the Frontline </strong> <em>(4)</em>
+<ul>
+<li>Examines ways in which the two world wars influenced British society and changed social identities. Explores and evaluates English war experiences through dimensions of gender, race/ethnicity, and class. Includes lectures, field study visits, and discussion.</li>
+<li><a href="/abroad/files/2016/03/CAS-HI-253_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS IR 427</span> <strong>Seminar in International Business </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Advertising &amp; Marketing, Economics &amp; Finance, Management, and Hospitality &amp; Tourism Tracks</em></li>
+<li><em>Students enrolled in Questrom IM 345 are not permitted to take CAS IR 427.</em></li>
+<li>Reviews international business operations in Britain and the EU and their underlying principles and concepts. It examines strategy, operations, and control. Using case studies, students gain experience in the application of relevant international management concepts and techniques. Macdonald.</li>
+<li><a href="/abroad/files/2016/03/CAS-IR-427_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS PO 223</span> <strong>Issues in Contemporary Politics and Ethics </strong> <em>(4)</em>
+<ul>
+<li class="hub-course">This course fulfills a single unit in each of the following BU Hub areas:
+<ul>
+<li>Historical Consciousness</li>
+<li>Philosophical Inquiry and Life's Meanings</li>
+</ul>
+</li>
+<li><em>Recommended elective for International Relations and Politics Tracks</em></li>
+<li>This course examines the historical origins of and diverse philosophical positions on various contentious political and ethical issues today. Through reading, writing, exhibition or theatre visits and discussion, students will be encouraged and guided to foster a critical stance.</li>
+<li><a href="/abroad/files/2016/03/CAS-PO-223_F19_Hub_Syllabus.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">CAS PO 224</span> <strong>British Law and Current Issues </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Pre-Law Track</em></li>
+<li><em>Formerly CAS PO 388.</em></li>
+<li>This course will examine a range of important, controversial issues in contemporary British law. As the aim is to relate to current matters, the issues will vary each semester, but are likely to include such topics as the law and terrorism; law and morality; the new British Supreme Court; and the Right to Know. Cousins, Sullivan.</li>
+<li><a href="/abroad/files/2016/03/CAS-PO-224_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">COM CM 335</span> <strong>Seminar in Advertising Strategy </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Advertising &amp; Marketing, Public Relations Tracks</em></li>
+<li>Provides an understanding of the ways in which advertising is effectively planned in the UK to achieve the objectives set in the overall marketing plan. This course examines the disciplines of agency account planning, research, and client brand management, enabling students to critically assess creative work in terms of strategy, objectives, and execution. Evans.</li>
+<li><a href="/abroad/files/2016/03/COM-CM-335_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">COM CM 447</span> <strong>International Brand Management </strong> <em>(4 credits)</em>
+<ul>
+<li><em>Recommended elective for Advertising &amp; Marketing, Public Relations Tracks</em></li>
+<li>This course aims to build upon core marketing studies undertaken to-date on branding, and to extend these into an in-depth exploration of the role of the brand manager and the role of brands in consumers’ lives. Specifically it aims to develop the following: an understanding of the role of the brand from the perspective of the organization, society, and that of the consumer; the necessary skills to enable assessment of brand opportunities, develop appropriate responses, manage the implementation of branding decisions, and measure the effectiveness of these decisions; the ability to select from and apply appropriate academic models to support analysis and insight; and the ability to conduct and present work in a manner befitting a professional brand manager. Heller.</li>
+<li><a href="/abroad/files/2016/03/COM-CM-447_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">COM FT 317</span> <strong>British Cinema and Society </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Film, Radio &amp; Television Track</em></li>
+<li>This course offers a combined social history and technological survey of British film making since World War II. The selected films provide vivid points of departure for an understanding of how British society has evolved. The course surveys the changing nature of modern British culture and society, using the products of the British movie industry as the main source of evidence. Most films fall outside of the category of British films that have made an impact in the United States market. Students will witness the cinematic version of the "other side" of Britain. One of the main themes of this "other side" is social class, which sets the agenda for most of the themes explored in the class. Special attention is also given to the differences between cinematic and historical versions of such themes. Dodson.</li>
+<li><a href="/abroad/files/2016/02/COM-FT-317-British-Cinema-and-Society.pdf" title="Syllabus, COM FT 317" target="_blank" class="syllabus" rel="noopener">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">COM FT 344 </span> <strong>European Cinema: From Festival Circuit to the Big Screen </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Film, Radio &amp; Television Track</em></li>
+<li>This course examines the economics and cultural politics of contemporary European cinema and what they reveal about national identity, culture, language, and values. The course considers the globalization process from film festival to global marketplace, and includes visits to local festivals and guest lectures.</li>
+<li><a href="/abroad/files/2016/02/COM-FT-344-European-Cinema-From-Festival-Circuit-to-the-Big-Screen.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">Questrom MK 467</span> <strong>International Marketing </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Management Track</em></li>
+<li><em>Prerequisite: Questrom MK 323, or the equivalent. Students who have not completed this prerequisite should enroll in International Promotion Management.</em></li>
+<li>Develops a critical appreciation of both the opportunities and challenges associated with the increasing globalization of markets. Students will learn about the key environmental forces shaping the needs and preferences of the global consumer and the impact of foreign, political, and economic factors on the marketing mix.</li>
+<li><a href="/abroad/files/2016/03/QST-MK-467_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">SAR HP 522</span> <strong>Health and Wellness Through the Lifespan </strong> <em>(4)</em>
+<ul>
+<li><em>Recommended elective for Psychology &amp; Health Sciences Track</em></li>
+<li><em>Priority will be given to Sargent College students.</em></li>
+<li>This course presents a sociocultural approach to contemporary issues of health and wellness in the UK and demonstrates the importance of understanding people in relation to their social worlds. The course examines such issues as homelessness, health promotion, and the implications of modern medicine throughout the lifespan, from childhood to old age. Clift, Hammond.</li>
+<li><a href="/abroad/files/2016/03/SAR-HP-522_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+<li><span class="course-code">COM CM 447</span> <strong>International Brand Management </strong> <em>(4)</em>
+<ul>
+<li>This course aims to build upon core marketing studies undertaken to-date on branding, and to extend these into an in-depth exploration of the role of the brand manager and the role of brands in consumers’ lives. Specifically it aims to develop the following: an understanding of the role of the brand from the perspective of the organization, society, and that of the consumer; the necessary skills to enable assessment of brand opportunities, develop appropriate responses, manage the implementation of branding decisions, and measure the effectiveness of these decisions; the ability to select from and apply appropriate academic models to support analysis and insight; and the ability to conduct and present work in a manner befitting a professional brand manager. Heller.</li>
+<li><a href="/abroad/files/2016/03/COM-CM-447_S18_Syllabus-1.pdf" class="syllabus">Syllabus</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p><!--
+
+
+
+<h4>The Global Learning Experience: An Online Course</h4>
+
+
+
+
+Students in all Fall and Spring programs have the opportunity to enroll in The Global Learning Experience at no additional cost.
+
+[collapsible heading="The Global Learning Experience: An Online Course" elem="h6"]
+
+
+
+
+<ul>
+ 	
+
+
+
+<li><span class="course-code">CAS IP101</span> <strong> The Global Learning Experience</strong> <em>(1 credit)</em>
+
+
+
+
+<ul>
+ 	
+
+
+
+<li>All program participants have the opportunity to make the most of their semester abroad with <em><a href="/abroad/find/the-global-learning-experience/">The Global Learning Experience</a>, </em>a self-paced, Pass/Fail course with brief readings and experiential assignments that accompany them while living and studying in a country and culture different from their own. Students post their work, experiences and observations to an online platform to trace and articulate their achievements abroad from an academic, personal and professional standpoint. The course links students with the faculty instructors as well as peers studying on other BU Study Abroad programs around the world. Students earn one credit in addition to the total program credits mentioned below at no additional cost.</li>
+
+
+
+
+
+
+
+
+<li><a href="/abroad/files/2016/06/IP101_Fall2017_syllabus.pdf" class="syllabus">Syllabus</a></li>
+
+
+
+
+</ul>
+
+
+
+
+</li>
+
+
+
+
+</ul>
+
+
+
+
+[/collapsible]--></p>
+</div>
+</div>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h4 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Housing & Student Services</h4>
+<div class="bu_collapsible_section" style="display: none;"><b>Program Residences</b></p>
+<ul>
+<li>Accommodations are apartment-style suites in BU’s own housing in the centrally located South Kensington neighborhood. All residences are approximately a 15-minute walk from the BU London Academic Center. Bedrooms consist of doubles, triples, and quads and all bedrooms come with an en suite bathroom. Limited single rooms are available on a space-available basis for a supplemental fee.</li>
+<li><span></span>Fully equipped kitchens are available within BU housing. Kitchens are shared between approximately 6-14 students.</li>
+<li><span></span>Students are responsible for budgeting their own cost of meals. Board isn’t included in this program.</li>
+<li><span></span>BU London does not have dining hall facilities, but there are ample grocery stores, restaurants, and other amenities in the immediate area surrounding the residences.</li>
+<li><span></span>All buildings are within walking distance to local transportation, including the London Tube and bus systems.</li>
+<li><span></span>Coin-operated laundry facilities are located in the basements of all residences. Cost of laundry is not included in the program fee.</li>
+<li><span></span>Students have access to the BU London Library for research and printing purposes. For recreational and social activities, students may take advantage of the BU London Social Programme as well as the clubs and societies of Imperial College London.</li>
+<li><span></span>WiFi is available throughout all the BU buildings.</li>
+</ul>
+</div>
+</div>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h4 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Program Dates</h4>
+<div class="bu_collapsible_section" style="display: none;">
+<ul>
+<li><strong>Fall Semester:</strong> late August to mid-December
+<ul></ul>
+</li>
+<li><strong>Spring Semester:</strong> mid-January to late April</li>
+</ul>
+</div>
+</div>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h4 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Application Deadlines</h4>
+<div class="bu_collapsible_section" style="display: none;">
+<ul>
+<li><strong>Fall: </strong>March 15</li>
+<li><strong>Spring:</strong> October 1</li>
+</ul>
+</div>
+</div>
+<div class="bu_collapsible_container " aria-live="polite" data-customize-animation="false">
+<h4 class="bu_collapsible" aria-expanded="false" tabindex="0" role="0">Cost & Financial Considerations</h4>
+<div class="bu_collapsible_section" style="display: none;"><span id="cost"></span></p>
+<ul>
+<li><strong>2019/2020 Tuition and Fees:</strong> $23,164<br />
+Cost includes tuition, housing, program related activities, administrative fee, <a href="http://www.bu.edu/abroad/apply-go/health-and-safety/insurance-and-travel-assistance/">overseas medical insurance, and emergency evacuation coverage.</a></li>
+<li><a href="/abroad/wp-assets/media/budget-sheets/london-internship-program-academic-year.pdf">2019 to 2020 academic year budget sheet, including cost of living expenses</a>.</li>
+<li><a target="_blank" href="http://www.bu.edu/abroad/apply-go/finances-and-financial-aid/" title="Financial aid" rel="noopener">Grants and Scholarships</a> available</li>
+</ul>
+</div>
+</div>
+
+	
+
+
+	<div class="center">
+		<a title="Apply Now" href="/abroad/apply" class="button">Apply now</a>
+	</div>
+
+</article>
+
+<aside class="sidebar">
+
+		<div class="widget">
+		<h3 class="widgetTitle">At a <span>Glance</span></h3>
+		<div class="tags">
+			<ul><li class="semester"><span class="tax">Semester:</span> 	<span class="term">Fall</span><span class="term">Spring</span></li></ul><ul><li class="location"><span class="tax">Location:</span> 	<span class="term">Europe</span></li></ul><ul><li class="internship"><span class="tax">Internship:</span> 	<span class="term">Internship: Yes</span></li></ul><ul><li class="language"><span class="tax">Language:</span> 	<span class="term">English</span></li></ul><ul><li class="housing"><span class="tax">Housing:</span> 	<span class="term">Program Residence</span></li></ul><ul><li class="subject"><span class="tax">Subject:</span> 	<span class="term">Advertising</span><span class="term">Aesthetic Exploration</span><span class="term">Art &amp; Architecture</span><span class="term">Arts Administration</span><span class="term">Business &amp; Management</span><span class="term">Communication</span><span class="term">Creativity/Innovation</span><span class="term">Critical Thinking</span><span class="term">Digital/Multimedia Expression</span><span class="term">Economics</span><span class="term">English/Creative Writing</span><span class="term">Film &amp; Television</span><span class="term">Finance</span><span class="term">Global Citizenship and Intercultural Literacy</span><span class="term">Health &amp; Human Services</span><span class="term">Historical Consciousness</span><span class="term">History</span><span class="term">Hospitality Administration</span><span class="term">Individual in Community</span><span class="term">International Management</span><span class="term">International Relations</span><span class="term">Journalism</span><span class="term">Management Policy</span><span class="term">Marketing</span><span class="term">Oral and/or Signed Communication</span><span class="term">Philosophical Inquiry and Life's Meanings</span><span class="term">Political Science</span><span class="term">Pre-Law</span><span class="term">Psychology</span><span class="term">Quantitative Reasoning I</span><span class="term">Quantitative Reasoning II</span><span class="term">Social Inquiry I</span><span class="term">Social Inquiry II</span><span class="term">Teamwork/Collaboration</span><span class="term">Theatre Arts</span></li></ul>		</div>
+	</div>
+
+
+				<div class="widget map">
+
+			<h3 class="widgetTitle">Location</h3>
+
+			<a href="https://google.com/maps/search/London, UK">
+				<img src="https://maps.googleapis.com/maps/api/staticmap?center=London, UK&zoom=7&size=400x400&&markers=London, UK&key=ABQIAAAAvQiCKgWYjJJcwx7HuIHKTxR1LaQBwD2D8maTt9gnGUY31iG7kRTF3DWsl5N2hVRvLABTG67l8UInKQ">
+			</a>
+		</div>
+	
+				<div class="widget video">
+			<h3>BU Abroad: Treading the Boards in London</h3>
+			<a href="http://www.bu.edu/buniverse/view/?v=1RZC6G1iP">
+				<img src="/abroad/files/2016/05/thumb_l-copy.jpg" />
+			</a>
+		</div>
+	
+
+			<div class="widget contact">
+		<a href="mailto:katiedoh@bu.edu">
+			<img src="/abroad/files/2019/10/Katie_Doherty_150x150.png" />
+			<h5>Have a Question?</h5>
+			<h6>Contact Program Manager</h6>
+			<strong>Katie Doherty</strong>
+		</a>
+	</div>
+	
+</aside>
+	
+			</div><!-- .content-container -->
+
+					</div><!-- .content -->
+	</div><!-- .wrapper -->
+
+	<div class="features">
+		<div class="content-container">
+			
+					<a href="/abroad/plan/academics/#hub" class="col-md-4">
+						<figure><img src="/abroad/files/2009/09/BU-Hub.png"></figure>
+						<h2>Study Abroad and the BU Hub</h2>
+						<p>Beginning in the Fall 2019 students will be able to fulfill HUB requirements on many BU-administered programs.</p>
+					</a>
+			
+					<a href="/abroad/walk-in-hours/" class="col-md-4">
+						<figure><img src="/abroad/files/2018/07/Walk-In-460-202.png"></figure>
+						<h2>Walk-In Hours</h2>
+						<p>Thinking about studying abroad but not sure where to start? Stop by our office hours to meet with a Study Abroad Advisor!</p>
+					</a>
+			
+					<a href="/abroad/news/spring-20/" class="col-md-4">
+						<figure><img src="/abroad/files/2016/06/Spring-1.png"></figure>
+						<h2>Spring 2020 Deadline Extended</h2>
+						<p>It’s not too late to study abroad during the spring 2020 semester; the application deadline for many programs has been extended!
+<!-- DON'T REMOVE, THIS SCRIPT FIXES HOMEPAGE STYLE-->
+<script type="text/javascript">	 	 
+jQuery(document).ready(function() {	 	 
+jQuery('#video-wallpaper-container .button').after('<p style="margin-top: 12px;font-style: italic;font-size: 80%">Most programs available to non-BU students.</p>');	 	 
+});	 	 
+</script></p>
+					</a>
+					</div>
+	</div>
+
+			<section class="footer-menu">
+			<ul class="row count-6">
+			<li><a href="/abroad/about"><i class="info"></i>About Us</a></li><li><a href="/abroad/calendar"><i class="calendar"></i>Calendar</a></li><li><a href="/abroad/about/faq"><i class="stack"></i>FAQ</a></li><li><a href="/abroad/about/contact-us/"><i class="contact"></i>Contact Us</a></li><li><a href="/abroad/accepted-students/"><i class="users"></i>Accepted Students</a></li><li><a href="/abroad/international-exchange-students-at-bu/"><i class="user"></i>Inbound Students</a></li>			</ul>
+		</section>
+	
+	<footer class="siteFooter has-info-links-social" role="contentinfo">
+
+						
+		<div class="siteFooter-content">
+			<div class="siteFooter-info"><ul><li><strong><a href="http://www.bu.edu">Boston University</a></strong> <a href="http://www.bu.edu/globalprograms/"><em>Global Programs</em> </a><ul>
+<li><a href="http://www.bu.edu/abroad">Study Abroad</a></li>
+<li><a href="http://www.bu.edu/isso">International Students & Scholars Office</a></li>
+<li><a href="http://www.bu.edu/celop">Center for English Language & Orientation Programs</a></li></ul>
+</li>
+</ul>
+<script type="text/javascript" src="/av/abroad/js/site-fixes.js" ></script></div>			<nav class="siteFooter-links" role="navigation"><ul id="siteFooter-links-menu" class="siteFooter-links-menu"><li id="menu-item-57629" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57629"><a href="http://www.bu.edu/maps/?id=3449">888 Commonwealth Avenue, Boston, MA 02215</a></li>
+<li id="menu-item-57631" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57631"><a href="tel:+6173539888">617-353-9888</a></li>
+<li id="menu-item-57630" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57630"><a href="mailto:abroad@bu.edu">abroad@bu.edu</a></li>
+<li id="menu-item-60287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60287"><a href="http://www.bu.edu/abroad/for-staff">For Staff</a></li>
+</ul></nav>			<nav class="siteFooter-social" role="navigation"><ul id="siteFooter-social-menu" class="siteFooter-social-menu"><li id="menu-item-57666" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57666"><a title="Twitter" href="http://twitter.com/BUabroad/"><i aria-hidden="true"></i><span>Twitter</span></a></li>
+<li id="menu-item-57667" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-57667"><a title="Facebook" href="http://facebook.com/buabroad"><i aria-hidden="true"></i><span>Facebook</span></a></li>
+<li id="menu-item-62581" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62581"><a title="Instagram" href="https://www.instagram.com/buabroad/"><i aria-hidden="true"></i><span>Instagram</span></a></li>
+</ul></nav>		</div>
+
+	</footer>
+
+			<script type="text/javascript">
+		(function($) {
+
+			var ajaxurl = "https://www.bu.edu/abroad/wp-admin/admin-ajax.php";
+
+			if (jQuery('.sortable').length) {
+
+				var data = {
+					action: 'sortable_scripts'
+				};
+				$.post(ajaxurl, data, function(scripts) {
+					var s = document.getElementsByTagName('script')[0];
+					$(s).before(scripts);
+				});
+
+			}
+		})(jQuery);
+		</script>
+
+		<script type='text/javascript' src='https://www.bu.edu/abroad/wp-content/themes/r-abroad/js/script.min.js?ver=1.2.5'></script>
+<script type='text/javascript' src='https://www.bu.edu/abroad/wp-includes/js/wp-embed.min.js?ver=4.9.10'></script>
+<script type='text/javascript' src='https://www.bu.edu/abroad/wp-content/plugins/bu-front-end-library/js/collapsible.js?ver=4.9.10'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b19c58809e","applicationID":"7212547","transactionName":"YV1SNkUDWEQDBRdQDFgXZRBeTV9ZBgMbFxNeSA==","queueTime":0,"applicationTime":4,"atts":"TRpRQA0ZS0o=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
