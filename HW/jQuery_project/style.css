@@ -29,3 +29,21 @@ h2 {
 .infoText {
   grid-area: info-text;
 }
+
+.stay {
+  display: grid;
+  grid-template-areas: "map-picture accomodation-text";
+  grid-gap: 30px;
+}
+
+.mapPicture {
+  grid-area: map-picture;
+}
+
+.accommodations {
+  grid-area: accomodation-text;
+}
+
+.home {
+  text-align: center;
+}

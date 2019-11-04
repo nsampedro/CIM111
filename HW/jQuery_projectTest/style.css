@@ -1,0 +1,58 @@
+body {
+  background-color: #e6faff;
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Staatliches", cursive;
+  font-size: 35px;
+}
+.title {
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+.history {
+  display: grid;
+  grid-template-areas: "background-picture info-text";
+  grid-gap: 30px;
+}
+.londonBackground {
+  grid-area: background-picture;
+}
+
+.infoText {
+  grid-area: info-text;
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
