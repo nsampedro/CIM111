@@ -1,0 +1,74 @@
+body {
+  background-color: #e6faff;
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Staatliches", cursive;
+  font-size: 35px;
+}
+.title {
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  font-size: 40px;
+}
+
+.history {
+  display: grid;
+  grid-template-areas: "background-picture info-text";
+  grid-gap: 30px;
+}
+.londonBackground {
+  grid-area: background-picture;
+}
+
+.infoText {
+  grid-area: info-text;
+}
+
+.stay {
+  display: grid;
+  grid-template-areas: "map-picture accomodation-text";
+  grid-gap: 30px;
+}
+
+.mapPicture {
+  grid-area: map-picture;
+}
+
+.accommodations {
+  grid-area: accomodation-text;
+}
+
+.home {
+  text-align: center;
+}
+
+/* .activities {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-areas:
+    "big-ben big-market camden-market"
+    "nice-museum cool-church";
+}
+
+#bigBen {
+  grid-area: big-ben;
+}
+#bigMarket {
+  grid-area: big-market;
+}
+#camdenMark {
+  grid-area: camden-market;
+}
+
+#niceMuseum {
+  grid-area: nice-museum;
+}
+#coolChurch {
+  grid-area: cool-church;
+} */
