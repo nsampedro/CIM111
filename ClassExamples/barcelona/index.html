@@ -5,6 +5,14 @@
   <meta charset="utf-8">
   <title>Visiting Barcelona</title>
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <script src="js/jquery.lettering-0.6.1.min.js" charset="utf-8"></script>
+
  </head>
 
  <body>
@@ -30,14 +38,23 @@
    </section>
 
    <button type="button" name="button">Hide picture</button>
-   <img src="images/disseny.jpg" alt="Picture of Barcelona design museum with toree @@ behind it." id="main_pic" class="image">
+   <a data-fancybox="gallery" href="images/disseny.jpg">
+    <img src="images/disseny.jpg" alt="Picture of Barcelona design museum with toree @@ behind it." id="main_pic" class="image">
+   </a>
+
   </main>
 
   <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+   $(document).ready(function() {
+    $("#bcn").lettering();
+   });
+
+  </script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
   <!-- <script src"js/jquery-3.3.1.min.js"type="text/javascript">
   </script> -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
    var bcnClicked = false;
    var imgBig = "no";
    $(document).ready(function() {
@@ -75,7 +92,7 @@
     $("#a_box").html("<p>This is a paragraph</p>");
    });
 
-  </script>
+  </script> -->
  </body>
 
 </html>
