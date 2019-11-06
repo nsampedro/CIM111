@@ -47,3 +47,28 @@ h2 {
 .home {
   text-align: center;
 }
+
+.activities {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-areas:
+    "big-ben big-market camden-market"
+    "nice-museum cool-church";
+}
+
+#bigBen {
+  grid-area: big-ben;
+}
+#bigMarket {
+  grid-area: big-market;
+}
+#camdenMark {
+  grid-area: camden-market;
+}
+
+#niceMuseum {
+  grid-area: nice-museum;
+}
+#coolChurch {
+  grid-area: cool-church;
+}
