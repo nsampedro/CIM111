@@ -9,9 +9,11 @@ body {
 h2 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 35px;
+  padding: 10px;
+  color: white;
 }
-h2,
 p {
   padding: 10px;
   color: white;
+  font-size: 25px;
 }
