@@ -48,6 +48,10 @@ h2 {
   text-align: center;
 }
 
+.foodList {
+  font-family: "PT Sans", sans-serif;
+}
+
 /* .activities {
   display: grid;
   grid-gap: 50px;
