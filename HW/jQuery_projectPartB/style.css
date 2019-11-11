@@ -38,6 +38,7 @@ h2 {
 
 .mapPicture {
   grid-area: map-picture;
+  align-self: center;
 }
 
 .accommodations {
