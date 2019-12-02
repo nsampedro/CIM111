@@ -1,3 +1,17 @@
 body {
   background-color: #e6faff;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  background-color: yellow;
+  color: black;
+}
