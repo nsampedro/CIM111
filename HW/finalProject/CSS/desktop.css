@@ -72,3 +72,24 @@ h2 {
   line-height: 2;
   width: 400px;
 }
+
+.secondPlace {
+  margin: 0 4%;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-areas:
+    "info-text ocean-picture"
+    "info-text .";
+  grid-gap: 30px;
+}
+
+.coralReef {
+  grid-area: info-text;
+  line-height: 2;
+  align-self: center;
+  width: 400px;
+}
+
+.ocean {
+  grid-area: ocean-picture;
+}
