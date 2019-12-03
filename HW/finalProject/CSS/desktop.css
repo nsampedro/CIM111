@@ -1,5 +1,31 @@
 body {
   background-color: #e6faff;
+  margin: 4% 5%;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.mobile-only {
+  display: none;
+}
+nav {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+nav a {
+  margin-right: 10px;
+  padding: 5px;
+}
+.intro {
+  text-align: left;
+  line-height: 2;
 }
 
 a {
@@ -8,10 +34,41 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: red;
+  color: black;
 }
 
-a:hover {
-  background-color: yellow;
+nav a:hover {
+  background-color: white;
   color: black;
+}
+
+header {
+  font-family: "Bebas Neue", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+}
+
+.firstPlace {
+  margin: 0 4%;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-areas:
+    "calanques1-picture info-text"
+    ". info-text";
+  grid-gap: 30px;
+}
+
+.mountains {
+  grid-area: calanques1-picture;
+}
+
+.calanques {
+  grid-area: info-text;
+  align-self: center;
+  line-height: 2;
+  width: 400px;
 }
