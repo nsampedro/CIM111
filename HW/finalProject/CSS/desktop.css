@@ -49,7 +49,7 @@ header {
 }
 h2 {
   font-family: "Bebas Neue", cursive;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .firstPlace {
@@ -57,8 +57,8 @@ h2 {
   display: grid;
   grid-template-columns: 50% 1fr;
   grid-template-areas:
-    "calanques1-picture info-text"
-    ". info-text";
+    "calanques1-picture france-text"
+    ". france-text";
   grid-gap: 30px;
 }
 
@@ -67,7 +67,7 @@ h2 {
 }
 
 .calanques {
-  grid-area: info-text;
+  grid-area: france-text;
   align-self: center;
   line-height: 2;
   width: 400px;
@@ -78,13 +78,13 @@ h2 {
   display: grid;
   grid-template-columns: 50% 1fr;
   grid-template-areas:
-    "info-text ocean-picture"
-    "info-text .";
+    "aussie-text ocean-picture"
+    "aussie-text .";
   grid-gap: 30px;
 }
 
 .coralReef {
-  grid-area: info-text;
+  grid-area: aussie-text;
   line-height: 2;
   align-self: center;
   width: 400px;
@@ -92,4 +92,99 @@ h2 {
 
 .ocean {
   grid-area: ocean-picture;
+}
+
+.thirdPlace {
+  margin: 0 4%;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-areas:
+    "iceland-picture . ice-text"
+    "second-pic . ice-text";
+  grid-gap: 30px;
+}
+
+.country {
+  grid-area: ice-text;
+  line-height: 2;
+  align-self: center;
+  width: 400px;
+}
+
+.ice {
+  grid-area: iceland-picture;
+  width: 550px;
+}
+.iceMountain {
+  grid-area: second-pic;
+  width: 550px;
+}
+
+.fourthPlace {
+  margin: 0 4%;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-areas:
+    "peru-text mountain-picture"
+    "peru-text .";
+  grid-gap: 10px;
+}
+
+.aztec {
+  grid-area: peru-text;
+  line-height: 2;
+  align-self: center;
+  width: 400px;
+}
+
+.llama {
+  grid-area: mountain-picture;
+  width: auto;
+}
+
+.fifthPlace {
+  margin: 0 4%;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-areas:
+    "canyon-picture . arizona-text"
+    "grand-picture . arizona-text";
+  grid-gap: 40px;
+}
+
+.arizona {
+  grid-area: arizona-text;
+  line-height: 2;
+  align-self: center;
+  width: 400px;
+}
+
+.rocks {
+  grid-area: canyon-picture;
+  width: 600px;
+}
+
+.canyon {
+  grid-area: grand-picture;
+}
+
+.sixthPlace {
+  margin: 0 4%;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-areas:
+    "egypt-text pyramid-picture"
+    "egypt-text .";
+  grid-gap: 10px;
+}
+
+.egypt {
+  grid-area: egypt-text;
+  line-height: 2;
+  align-self: center;
+  width: 400px;
+}
+
+.mummy {
+  grid-area: pyramid-picture;
 }
