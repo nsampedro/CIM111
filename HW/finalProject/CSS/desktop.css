@@ -58,12 +58,16 @@ h2 {
   grid-template-columns: 50% 1fr;
   grid-template-areas:
     "calanques1-picture france-text"
-    ". france-text";
+    "mountain-picture france-text";
   grid-gap: 30px;
 }
 
 .mountains {
   grid-area: calanques1-picture;
+}
+
+.marseille {
+  grid-area: mountain-picture;
 }
 
 .calanques {
