@@ -50,12 +50,13 @@ header {
 h2 {
   font-family: "Bebas Neue", cursive;
   font-size: 50px;
+  text-decoration: underline;
 }
 
 .firstPlace {
   margin: 0 4%;
   display: grid;
-  grid-template-columns: 50% 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "calanques1-picture france-text"
     "mountain-picture france-text";
@@ -108,6 +109,9 @@ h2 {
   grid-gap: 30px;
 }
 
+.thirdPlace img {
+  width: 100%;
+}
 .country {
   grid-area: ice-text;
   line-height: 2;
@@ -117,11 +121,9 @@ h2 {
 
 .ice {
   grid-area: iceland-picture;
-  width: 550px;
 }
 .iceMountain {
   grid-area: second-pic;
-  width: 550px;
 }
 
 .fourthPlace {
@@ -155,7 +157,9 @@ h2 {
     "grand-picture . arizona-text";
   grid-gap: 40px;
 }
-
+.fifthPlace img {
+  width: 100%;
+}
 .arizona {
   grid-area: arizona-text;
   line-height: 2;
@@ -165,7 +169,6 @@ h2 {
 
 .rocks {
   grid-area: canyon-picture;
-  width: 600px;
 }
 
 .canyon {
