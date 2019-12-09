@@ -16,7 +16,7 @@ $("#visit").click(function() {
 });
 
 $("#bye").click(function() {
- $("#byeMessage").html("Hey! Have a good trip! :-)")
+ $("#byeMessage").html("Now go plan your trip!! Have a good trip! Bye! :-)")
 });
 
 $("#hide").click(function() {
